@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingTop="100dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="E-mail"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/login_txt_email"
+                android:inputType="textEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="비밀번호"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/login_txt_password"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/login_btn_ok"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="로그인"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+    
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Firebase_Auth</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="start_title_home">홈</string>
+    <string name="start_title_join">회원가입</string>
+    <string name="start_title_login">로그인</string>
+
+</resources>
